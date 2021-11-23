@@ -17,7 +17,9 @@ def openNewWindow():
             var.set(A.get() - B.get())
             print(var.get()) 
         def Limpar():
-            var.set(A.set("")+ B.set(""))
+            var.set("")
+            A.set("")
+            B.set("")
             
             
         newWindow = Toplevel(master)
